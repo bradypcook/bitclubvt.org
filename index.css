@@ -172,6 +172,9 @@ nav-link {
 
 .purpose-text {
     padding: 5%;
+    width: 90vw;
+    
+    
 }
 
 /* Blog Card*/
@@ -180,7 +183,7 @@ nav-link {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  margin: 0;
+  margin-left: 4%;
   padding: 0;
 }
 
@@ -271,17 +274,18 @@ nav-link {
     padding: 0;
     background: transparent;
     display: grid ;
-    place-items: center
+    place-items: center;
   }
   
   #slider-container {
     height: 45vh;
-    width: 95vw;
+    width: 100vw;
     max-width: 1400px;
     background: #39818F;
     position: relative;
     overflow: hidden;
     padding: 20px;
+    
   }
   
   #slider-container .btn {
