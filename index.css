@@ -176,8 +176,6 @@ nav-link {
 
 /* Blog Card*/
 
-
- 
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -243,7 +241,7 @@ nav-link {
 }
 
 .card__image--team {
-  background-image: url("images/execboard/BITClubBoardPhoto.JPG");
+    background-image: url("images/execboard/BITClubBoardPhoto.JPG");
 }
 
 .card__image--calendar {
@@ -265,30 +263,9 @@ nav-link {
   margin-bottom: 1.25rem;
 }
 
-
-/* blog card */
-/*.blog-card .p:active {
-    color:black;
-    text-decoration: none;
-}
-.blog-card .p:visited {
-    color: black;
-    text-decoration: none;
-} */
-
-.blog-image {
-    height: 50vh; 
-    width: 30em; 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
 /* Carousel */
 
   #container {
-    height: 35vh;
     width: 100vw;
     margin-top: 15vh;
     padding: 0;
@@ -298,7 +275,7 @@ nav-link {
   }
   
   #slider-container {
-    height: 400px;
+    height: 45vh;
     width: 95vw;
     max-width: 1400px;
     background: #39818F;
@@ -383,7 +360,7 @@ nav-link {
   @media only screen and (max-width: 550px) {
   
     #slider-container #slider .slide {
-      width: calc(10% - 20px);
+      width: calc(10% - 25px);
     }
   
   }
