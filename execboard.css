@@ -303,3 +303,17 @@
         padding-bottom: 5%;
     }
 }
+
+.desktop {
+    height: 90vh;
+}
+
+@media all and (min-width: 768px) {
+    .desktop {display:block;}
+    .phone {display:none;}
+}
+
+@media all and (max-width: 767px) {
+    .desktop {display:none;}
+    .phone {display:block;}
+}

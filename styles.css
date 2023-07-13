@@ -129,7 +129,7 @@ header {
     left: 0;
     width: 80%;
     height: 100vh;
-    background-color: var(--main-font-color-dark);
+    background-color: #fe9659;
     padding: 4.4rem;
     display: flex;
     flex-direction: column;
