@@ -171,11 +171,11 @@
     }
     
     @media all and (min-width: 768px) {
-        .deskContent {display:block;}
-        .phoneContent {display:none;}
+        .desktop {display:block;}
+        .phone {display:none;}
     }
     
     @media all and (max-width: 767px) {
-        .deskContent {display:none;}
-        .phoneContent {display:block;}
+        .desktop {display:none;}
+        .phone {display:block;}
     }
