@@ -11,13 +11,10 @@
 /* Executive board */
 
 #board-group-pic {
-    position: absolute;
-    top: 110vh;
-    left: 5vw;
-    width: 90vw;
-    height: 90vh;
+    width: 80%;
     object-fit: cover;
     z-index: -1;
+    margin: 5% 10% 5% 10%;
 }
 
 #board-group-pic-one {
