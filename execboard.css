@@ -83,9 +83,10 @@
 
 .team {
     min-height: 100vh;
-    padding: 60px 15px;
+    padding:1px 15px;
     float: left;
     width: 100%;
+    flex-direction: column;
 }
 
 .team h1 {
@@ -99,11 +100,22 @@
     animation: fadeUp .5s forwards;
     animation-delay: 0.5s;
 }
+.team h2 {
+    font-size: 30px;
+   
+    color: #7c7c7c;
+    padding-bottom: 10px;
+    text-align: center;
+    opacity: 0;
+    animation: fadeUp .5s forwards;
+    animation-delay: 0.5s;
+}
 
 .team .card {
     width: 25%;
     float: left;
     margin-bottom: 50px;
+    
 }
 
 .team .card .box {
