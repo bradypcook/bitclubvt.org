@@ -1,5 +1,13 @@
+@font-face {
+    font-family:'HussarBold';
+    src: url(HussarBoldWeb.otf);
+}
+
 /* Past Executive Board */
 
+body{
+    background-color: #fdf8eb; /*BIT COLORS*/
+}
 #past-board-group-pic-one {
     width: 80%;
     object-fit: cover;
@@ -74,46 +82,135 @@
 /* SIA Executive Board 2020-2021 */
 /*may change this font*/
 .exec-title {
-    text-shadow: 5px 5px 5px rgb(197, 197, 197);
+    font-family:'HussarBold';
+    /*text-shadow: 5px 5px 5px rgb(197, 197, 197);*/
 }
 
 .flex-container {
-    max-width: 1140px;
+    /*width:20px; */
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
     margin: auto;
-    position: relative;
+    /*position: relative; */
     min-height: 1px;
+    padding: 20px;
+    background-color: #8698a2;
+    border-radius: 25px;
 }
 
 .flex-containerleft{
-    position:relative;
+    position: relative;
+    /*display: flex;
+    flex-direction: flex-start; */
 }
 
 .flex-containerright{
     position: relative;
+    /*display: flex;
+    flex-direction: flex-end; */
 }
 
-.team {
+
+
+.groupimg{
+    /* this is only useful for groupimg*/
     min-height: 100vh;
-    padding:1px 15px;
-    float: left;
-    width: 100%;
-    flex-direction: column;
 }
-
-.team h1 {
+.groupimg h1 {
     font-size: 50px;
     margin-top: 5%;
     margin-bottom: 3%;
-    color: #7c7c7c;
+    /*color: #7c7c7c; <---------original color*/
+    color: rgb(42, 42, 42);
     padding-bottom: 60px;
     text-align: center;
     opacity: 0;
     animation: fadeUp .5s forwards;
     animation-delay: 0.5s;
 }
+
+
+.representatives{ /*section for President, Vice, and director of operations*/
+    min-height: 50vh;
+    /*position: center; */
+    padding: 1px 15px; /* 1px 0px means right on the edge*/
+    /*float: right; */
+    /*width: 100%;
+    /*flex-direction: column; */
+    /*background-color:#8698a2; <----this is good, but any alternative?*/
+    height:auto;
+    padding: 35px;
+}
+
+.representatives .card{
+    background-color: #5b9cc5;
+    padding: 10px 10px;
+    border-radius: 25px;
+}
+
+
+.representatives .card .box{
+    background-color: #1e5475;
+    padding: 10px;
+    width: 500px;
+    border-radius: 25px;
+    
+}
+
+.representatives h4 {
+    font-size: 20px;
+    margin: 20px 0px 10px;
+    padding-top: 5px;
+    color: #fbac43;
+    text-align: center;
+}
+
+.representatives h5 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #a0a0a0;
+    padding-bottom: 5px;
+    text-align: center;
+    /*text-shadow: 2px 2px 2px rgb(228, 228, 228); */
+}
+
+.representatives h2 {
+    font-size: 50px;
+    padding-top: 75px;
+    padding-bottom: 25px;
+    color: #7c7c7c;
+    text-align: center;
+    opacity: 0;
+    animation: fadeUp .5s forwards;
+    animation-delay: 0.5s;
+}
+
+.labelarea{
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+.team { /*team controls with of EVERYTHING (try changing padding)*/
+    min-height: 100vh;
+    /*position: center; */
+    padding: 1px 15px; /* 1px 0px means right on the edge*/
+    float: right; 
+    width: 100%;
+    flex-direction: column;
+}
+
 .team h2 {
     font-size: 30px;
-   
+    padding-top: 75px;
+    padding-bottom: 25px;
     color: #7c7c7c;
     padding-bottom: 10px;
     text-align: center;
@@ -122,28 +219,37 @@
     animation-delay: 0.5s;
 }
 
+
+
+
+
+
 .team .card {
-    width: 25%;
+    background-color: #5b9cc5;
+    width: 20%;
     float: left;
-    margin-bottom: 50px;
-    
+    /*position: relative; <--------------------------This is good
+    /*margin-bottom: 50px; <--this does nothing */
 }
 
 .team .card .box {
+    /*position: absolute; <-----------------------This is good*/
     padding: 30px 15px 0px 15px;
     background-color: #e5f4fd;
 }
-/* .team .card .box:hover {
+ /*.team .card .box:hover {
     animation: fadeUp 3s forwards;
 } */
-
+.team .card .box img{
+ /*we need to add stuff here*/
+}
 .team .card .box img:hover {
     transition: margin 1s ease, box-shadow 1s ease;
     box-shadow: 0px 0px 40px black; 
 }
 
 .exec-person-pic {
-    width: 170px;
+    width: 200px;
     height: 230px;
     display: block;
     object-fit: cover;
@@ -152,14 +258,14 @@
     cursor: pointer;
 }
 
-.team h4 {
+.team h4{
     font-size: 20px;
     margin: 20px 0px 10px;
     color: #fbac43;
     text-align: center;
 }
 
-.team h5 {
+.team h5{
     font-size: 16px;
     margin: 0px 0px 15px;
     color: #a0a0a0;
@@ -183,6 +289,7 @@
 
 
 /* The Modal (background) */
+/*THIS IS THE GOOOD SHITTTTTTT, DONT TOUCH UNLESS ITS AUNAMOUS */
 
 .modal {
     display: none;
