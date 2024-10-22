@@ -263,14 +263,18 @@ h5 {
 
 
 @media(max-width: 991px) {
-    .team .card {
+    .representatives-and-dev .card,
+    .EventsCommittee .card,
+    .Marketing .card {
         width: 50%;
         margin-bottom: 30px;
     }
 }
 
 @media(max-width:550px) {
-    .team .card {
+    .representatives-and-dev .card,
+    .EventsCommittee .card,
+    .Marketing .card {
         width: 65vw;
         margin-left: 15vw;
     }
