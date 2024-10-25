@@ -58,7 +58,7 @@
             <div class="flex-container">
                 <div class="card">
                     <div class="box">
-                        <img class="exec-person-pic" src="images/execboard/DillionAdawg.jpeg" 
+                        <img class="exec-person-pic" src="images/execboard/DillonAdawg.jpeg" 
                             style="filter: brightness(150%);"
                             alt="Executive board member pic">
                         <div class="modal">
@@ -482,6 +482,18 @@
         </div>
     </footer>
     <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('show');
+                } 
+                else{
+                    entry.target.classList.remove('show');
+                }
+            });
+        });
+        const cards = document.querySelectorAll(".card")
+        cards.forEach((el) => observer.observe(el));
         
         //This part is hidden, then show in scroll form
 //        const observer = new IntersectionObserver((entries) => {
