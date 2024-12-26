@@ -435,20 +435,21 @@ h5 {
     .EventsCommittee { /*section for events committee*/
         min-height: 50vh;
         height:auto;
-        padding: 10px;
+        /*padding: 10px;*/
         width: 100%;
     }
     .Marketing { /*section for marketing committee*/
         min-height: 50vh;
         height:auto;
-        padding: 10px;
+        /*padding: 10px; */
         width: 100%;
     }
 
     .representatives-and-dev{ /*section for President, Vice, and director of operations*/
         min-height: 50vh;
         height:auto;
-        padding: 10px;
+        width: 100%;
+        /*padding: 10px; */
     }
     
     .flex-containerleft{ /*THIS IS THE CONTAINER FOR EVENT COMMITTEE -------------------------------------------------------------------------*/
