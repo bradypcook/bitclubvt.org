@@ -505,12 +505,13 @@
                     entry.target.classList.add('show');
                 } 
                 else{
-                    entry.target.classList.remove('show');
+                    entry.target.classList.remove('show');   
+                    observer.unobserve(entry.target)
                 }
             });
         });
         const cards = document.querySelectorAll(".card")
-        cards.forEach((el) => observer.observe(el));
+        cards.forEach(cards => observer.observe(cards))
         
         //This part is hidden, then show in scroll form
 //        const observer = new IntersectionObserver((entries) => {
