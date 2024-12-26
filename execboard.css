@@ -392,19 +392,6 @@ h5 {
         animation-name: zoom;
         animation-duration: 0.6s;
     }
-    .flex-container { /*THIS IS THE CONTAINER FOR PRESIDENTS------------------------------------------------------------------------------*/
-    /*width:20px; */
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        justify-content: space-around;
-        margin: auto;
-        /*position: relative; */
-        min-height: 1px;
-        padding: 20px;
-        background-color: #8698a2;
-        border-radius: 25px;
-    }
 
 }
 
