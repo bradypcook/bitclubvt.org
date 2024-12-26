@@ -60,19 +60,13 @@ h5 {
     /*text-shadow: 2px 2px 2px rgb(228, 228, 228); */
 }
 
-.box img,
-.boxThis img{
+.box img {
     transition: transform 0.5s ease;
 }
 
 .box img:hover{
     transform: scale(1.1)
 }
-
-.boxThis img:hover{
-    content: url('images/execboard/Whistlebaby.jpg');
-}
-
 
 /*may change this font*/
 .exec-title {
