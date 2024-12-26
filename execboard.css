@@ -425,10 +425,38 @@ h5 {
     }
     .flex-container { /*THIS IS THE CONTAINER FOR PRESIDENTS------------------------------------------------------------------------------*/
         /*width:20px; */
+        display: flex;
         flex-direction: column;
     }
-    .flex-containerdiff{/*WEBDEV CONTAINERRRRRRRR-----------------------------------------------------------------------------------------*/
+    .flex-containerdiff {/*WEBDEV CONTAINERRRRRRRR-----------------------------------------------------------------------------------------*/
+        display: flex;
         flex-direction: column;
+    }
+    .EventsCommittee { /*section for events committee*/
+        min-height: 50vh;
+        height:auto;
+        padding: 35px;
+        width: 100%;
+    }
+    .Marketing { /*section for marketing committee*/
+        min-height: 50vh;
+        height:auto;
+        padding: 35px;
+        width: 100%;
+    }
+    .flex-containerleft{ /*THIS IS THE CONTAINER FOR EVENT COMMITTEE -------------------------------------------------------------------------*/
+        display: flex;
+        flex-direction: column; 
+        justify-content: space-around;
+        width:100%;
+        flex-wrap: wrap;
+    }
+    .flex-containerright{ /*THIS IS THE CONTAINER FOR MARKETING COMMITTEE -------------------------------------------------------------------------*/
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        flex-wrap: wrap;
+        /*flex-wrap: wrap; <---------you need to ask */
     }
 }
 
