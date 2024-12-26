@@ -423,6 +423,13 @@ h5 {
         text-align: center;
         padding-bottom: 5%;
     }
+    .flex-container { /*THIS IS THE CONTAINER FOR PRESIDENTS------------------------------------------------------------------------------*/
+        /*width:20px; */
+        flex-direction: column;
+    }
+    .flex-containerdiff{/*WEBDEV CONTAINERRRRRRRR-----------------------------------------------------------------------------------------*/
+        flex-direction: column;
+    }
 }
 
 .desktop {
