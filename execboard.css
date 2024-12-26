@@ -435,15 +435,22 @@ h5 {
     .EventsCommittee { /*section for events committee*/
         min-height: 50vh;
         height:auto;
-        padding: 35px;
+        padding: 10px;
         width: 100%;
     }
     .Marketing { /*section for marketing committee*/
         min-height: 50vh;
         height:auto;
-        padding: 35px;
+        padding: 10px;
         width: 100%;
     }
+
+    .representatives-and-dev{ /*section for President, Vice, and director of operations*/
+        min-height: 50vh;
+        height:auto;
+        padding: 10px;
+    }
+    
     .flex-containerleft{ /*THIS IS THE CONTAINER FOR EVENT COMMITTEE -------------------------------------------------------------------------*/
         display: flex;
         flex-direction: column; 
@@ -454,6 +461,7 @@ h5 {
     .flex-containerright{ /*THIS IS THE CONTAINER FOR MARKETING COMMITTEE -------------------------------------------------------------------------*/
         display: flex;
         flex-direction: column;
+        justify-content: center;
         width:100%;
         flex-wrap: wrap;
         /*flex-wrap: wrap; <---------you need to ask */
