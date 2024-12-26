@@ -510,7 +510,7 @@
             });
         });
         const cards = document.querySelectorAll(".card")
-        cards.forEach(cards => observer.observe(cards))
+        cards.forEach((el) => observer.observe(el));
         
         //This part is hidden, then show in scroll form
 //        const observer = new IntersectionObserver((entries) => {
