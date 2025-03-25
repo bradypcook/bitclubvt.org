@@ -1,3 +1,357 @@
+/*my portion of the pie*/
+body{
+  background-color: #fdf8eb; /*BIT COLORS*/
+}
+
+.main-image{
+  padding-top: 12vh;
+  width: 100%;
+  padding-bottom: 110vh;
+  padding-left: 0px;
+  padding-right: 0px;
+  width:100%;
+  height: 750px;
+  /* background-color: rgb(0, 0, 0); */
+}
+
+ .image-container{
+  width:100%;
+  height: 750px;
+}
+
+.BITlogo{
+  position: absolute;
+  padding-top: 125px; /*This is Scuffed, find a way to fix this*/
+  transform: translateX(500px); /*This is Scuffed, find a way to fix this*/
+  z-index: 3;
+}
+
+.Blackscreen{
+  position: absolute;
+  width: 100%;
+  opacity: 0.5;
+  z-index: 2;
+}
+
+.image-1,
+.image-2,
+.image-3,
+.image-4{
+  Position:absolute;
+  width: 100%;
+  /* height: 250px;
+  object-fit: cover; */
+  opacity: 0;
+  transition: opacity 1s ease;
+  z-index: 1;
+}
+
+.passthetorch{
+  opacity: 1;
+  transition: opacity 1s ease;
+  /*display: block; */
+}
+
+
+/*-----------------------PURPOSEE--------PURPOSE----------PURPOSE-----------PURPOSE----------PURPOSE-----*/
+.purpotext{
+  padding-top: 20vh;
+  width: 100%;
+  /* padding-left: 0px;
+  padding-right: 0px; */
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin-left: 0;
+  margin-right: 0;
+  padding-bottom: 15vh;
+  /* background-color: rgb(0, 60, 255); */
+}
+
+.pcontainer{
+  width: 100%;
+  /*background-color: rgb(28, 179, 28);*/
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-around;
+  /* background-color:rgb(9, 165, 255) */
+}
+
+.purpose h1{
+  font-size: 75px;
+  padding-bottom:45px;
+}
+
+.purpose p{
+  line-height: 35px;
+}
+
+.purpose{
+  justify-content: space-around;
+  width:50%;
+  /* background: rgb(218, 240, 186); */
+  align-self: center;
+  /* background-color: aquamarine; */
+  padding-right: 75px;
+}
+
+.purimage{
+  justify-content: flex-end;
+  /* background-color:aqua */
+}
+
+/*-------WHY JOINNNN--------WHY JOIN------------WHY JOIN--------------WHY JOIN-----------*/
+.Wavestartsec{
+  position: relative;
+  width:100%;
+  padding-left: 0px;
+  padding-right:0px;
+  height: 305px;
+}
+
+.Headerjoin{
+  z-index: 4;
+}
+.Headerjoin h1{
+  position: absolute;
+  padding-top:150px;
+  padding-left:100px;
+  font-size: 75px;
+}
+
+.wavecutstart{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.wavecutstart svg{
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 305px;
+}
+
+.wavecutstart .shape-fill{
+  fill: #3E89E1;
+  z-index:-1;
+}
+
+.wcontainer{
+  width: 100%;
+  /*background-color: rgb(28, 179, 28);*/
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-around;
+  /* background-color:rgb(9, 165, 255) */
+  padding-bottom: 75px;
+}
+
+.WhyJoin{
+  background-color: #3E89E1;
+  /* background-color: #bbb; */
+  width:100%;
+  padding-left: 100px;
+  padding-right:100px;
+}
+
+.Headerjoin h1{
+  color: #fdf8eb; /*BIT colors*/
+}
+
+.Why p{
+  line-height: 35px;
+  color: #fdf8eb; /*BIT colors*/
+  padding-right: 75px;
+}
+
+.Why{
+  justify-content: flex-start;
+  width:75%;
+  /* background: rgb(218, 240, 186); */
+  align-self: center;
+  /* background-color: aquamarine; */
+  padding-right: 75;
+}
+
+.Whyimmage{
+  justify-content: flex-end;
+  padding-left: 10px;
+}
+
+/*ALUMNIIIIIIIIIIII-----------ALUMNIIIIIIIIIIII-----------ALUMNIIIIIIIIIIII-----------ALUMNIIIIIIIIIIII-----------*/
+
+.alumncontainer{
+  width: 100%;
+  display: flex;
+  /* justify-content: space-around; */
+  flex-direction: row-reverse;
+}
+
+.alumnispeak{
+  /* justify-content: flex-end; */
+  font-style: italic;
+  color:whitesmoke;
+  align-self: center;
+  /* justify-content: flex-end; */
+  width:80%;
+  align-self: center;
+  padding-left: 50px;
+  padding-right: 100px;
+}
+
+.alumnispeak p{
+  line-height: 25px;
+  color: whitesmoke;
+  padding-right: 75px;
+}
+
+.Alumniimage{
+  /* justify-content: flex-start; */
+  padding-left:25px
+
+}
+
+.alumniimm{
+  width: 300px;
+  height: 330px;
+  /* display: block; */
+  object-fit: cover;
+  margin: 30px auto;
+  border-radius: 50%;
+  /* cursor: pointer; <--- MAYBE ADD ON TO THISSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS */
+  background-color: #002f64;
+}
+
+/*END PART-------END PART-----END PART----------ENDPART-------------*/
+.Waveendsec{
+  position: relative;
+  width:100%;
+  padding-left: 0px;
+  padding-right:0px;
+  height: 305px;
+  padding-bottom: 20vh;
+}
+
+.wavecutend{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wavecutend svg{
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 305px;
+}
+
+.wavecutend .shape-fill{
+  fill: #3E89E1;
+  z-index:-1;
+}
+
+/*---MOMENTS------MOMENTS------MOMENTS------MOMENTS------MOMENTS------MOMENTS------MOMENTS------MOMENTS------MOMENTS---*/
+.Moments{
+  background-color: #fdf8eb;
+  /* background-color: #bbb; */
+  width:100%;
+  padding-left: 100px;
+  padding-right:100px;
+  padding-bottom: 20vh;
+}
+
+.Momentcontainer{
+  display: flex;
+  padding-bottom: 75px;
+  flex-direction: column;
+}
+
+.momentwords{
+  align-items: flex-start;
+  justify-content: center; /*relearn flexbox*/
+  padding-bottom: 25px;
+}
+
+.momentwords p{
+  line-height: 35px;
+}
+.momentwords h1{
+  font-size: 75px;
+}
+
+.Caroseltwo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+/*----POP-UP-ANIMATION----------POP-UP-ANIMATION----------POP-UP-ANIMATION----------POP-UP-ANIMATION--------*/
+
+/*--LEFT POPUP-------------*/
+.purpose{
+  opacity: 0;
+  transition: all 2s;
+  transform: translateX(-50%);
+}
+
+.purpose.Leftshow{
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/*--RIGHT POPUP------------*/
+.purimage{
+  opacity: 0;
+  transition: all 2s;
+  transform: translateX(50%);
+}
+
+.purimage.Rightshow{
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/*--FADEIN NORMAL --------------*/
+.BITlogo{
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.BITlogo.Fadeshow{
+  opacity: 1;
+}
+/* 
+.Wavestartsec{
+  opacity: 0;
+  transition: all 0.5s;
+  transform: translateY(50%); 
+}
+
+.Wavestartsec.Fadeshow{
+  opacity: 1;
+  transform: translateY(0); 
+}
+
+.WhyJoin{
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.WhyJoin.Fadeshow{
+  opacity:1;
+} */
+
+/*^^^^^^^^^^^^^THIS DOES NOT WORK HOW I WANT IT TO WORRK*/
+
+/*-------------------------------------------------------------------------------------------------*/
 /* trying to fix navbar font sizing difference */
 nav-link {
     display: block;
@@ -266,7 +620,7 @@ nav-link {
   margin-bottom: 1.25rem;
 }
 
-/* Carousel */
+/* Carousel -------------------------------------------------THIS NO LONGER EXISTS-------------------------------------------------
 
   #container {
     width: 100vw;
@@ -367,4 +721,4 @@ nav-link {
       width: calc(10% - 25px);
     }
   
-  }
+  } */
