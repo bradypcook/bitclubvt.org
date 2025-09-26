@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   description:
     "Welcome to the BIT Club Website! You can find out more about our club, view our executive board members, and check our calendar for upcoming events!",
   icons: {
-    icon: `/bitclub_icon.ico`,
+    icon: `${basePath}/bitclub_icon.ico`,
   },
 };
 
