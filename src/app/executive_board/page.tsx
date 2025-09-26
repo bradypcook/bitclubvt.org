@@ -80,7 +80,7 @@ export default function ExecBoardPage() {
             name: "Eman Tuku",
             position: "Socials Chair",
             degree: "Senior | BIT-DSS",
-            imageSrc: "/exec_board_photos/headshots/EmanTuku.jpg",
+            imageSrc: "/exec_board_photos/headshots/eman_tuku.png",
             bio: (
             <>
               <b>Fun Fact:</b> I was born in Minnesota! <br />
@@ -249,7 +249,7 @@ export default function ExecBoardPage() {
   
   />
   <ImageFrame 
-  imageSrc="/exec_board_photos/group_photos/previous_board_photos/BITBoard2023_2024.jpg"
+  imageSrc="/exec_board_photos/group_photos/previous_board_photos/BITBoard2023_2024.png"
   alt="BIT Board 2024-2025"
   caption="BIT Board 2023-2024"
   
