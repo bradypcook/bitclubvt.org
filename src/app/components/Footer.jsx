@@ -6,8 +6,6 @@ import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDiscord, faInstagram, faLinkedin, faLinktree } from "@fortawesome/free-brands-svg-icons";
 
-const basePath = process.env.NODE_ENV === 'production' ? '/bitclubvt.org' : '';
-
 export default function Footer() {
   const footerRef = useRef(null);
   const [isVisible, setIsVisible] = useState(false);

@@ -13,8 +13,6 @@ export const metadata: Metadata = {
   // For some reason in the main page, you have to list out the full title. I don't know why, but it works this way so that's what matters.
 }
 
-const basePath = process.env.NODE_ENV === 'production' ? '/bitclubvt.org' : '';
-
 export default function MainPage() {
   return (
     <main>
@@ -24,7 +22,7 @@ export default function MainPage() {
       header='Purpose'
       body="We are a student run, half-social half-professional club with a goal to create community amongst BIT majors, 
       and ensure each of our memebrs obtain premier professional and academic development through our club."
-      imageSrc={`${basePath}/purpose_photo.jpg`}
+      imageSrc="/purpose_photo.jpg"
       />
       <WhyJoinSection 
       header='Why Join?'
@@ -36,7 +34,7 @@ export default function MainPage() {
                     all about! Even though we are the BIT Club at Virginia Tech, we are not limited to just BIT majors, in fact, 
                     anyone interested in this realm and wants to attend our workshops and get one-on-one contact with recruiters from 
                     companies like the Big 4 are welcome to join!"
-      imageSrc={`${basePath}/why_join_photo.jpg`}
+      imageSrc="/why_join_photo.jpg"
       />
       <Footer />
     </main>
