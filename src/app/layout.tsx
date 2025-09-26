@@ -16,6 +16,8 @@ const hussarBold = localFont({
   style: "normal",
 });
 
+const basePath = process.env.NODE_ENV === 'production' ? '/bitclubvt.org' : '';
+
 export const metadata: Metadata = {
   title: {
     default: "BIT Club @ VT",

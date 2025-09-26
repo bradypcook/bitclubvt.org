@@ -10,6 +10,8 @@ export const metadata: Metadata = {
   title: "Executive Board",
 }
 
+const basePath = process.env.NODE_ENV === 'production' ? '/bitclubvt.org' : '';
+
 export default function ExecBoardPage() {
   return (
   <main>
@@ -21,7 +23,7 @@ export default function ExecBoardPage() {
   />
 
   <ImageFrame 
-  imageSrc="/exec_board_photos/group_photos/previous_board_photos/BITBoard2024_2025.jpg"
+  imageSrc={`${basePath}/exec_board_photos/group_photos/previous_board_photos/BITBoard2024_2025.jpg`}
   alt="BIT Board 2024-2025"
   
   />
@@ -243,13 +245,13 @@ export default function ExecBoardPage() {
   text='Previous Executive Boards'
   />
   <ImageFrame 
-  imageSrc="/exec_board_photos/group_photos/previous_board_photos/BITBoard2024_2025.jpg"
+  imageSrc={`${basePath}/exec_board_photos/group_photos/previous_board_photos/BITBoard2024_2025.jpg`}
   alt="BIT Board 2024-2025"
   caption="BIT Board 2024-2025"
   
   />
   <ImageFrame 
-  imageSrc="/exec_board_photos/group_photos/previous_board_photos/BITBoard2023_2024.jpg"
+  imageSrc={`${basePath}/exec_board_photos/group_photos/previous_board_photos/BITBoard2023_2024.jpg`}
   alt="BIT Board 2024-2025"
   caption="BIT Board 2023-2024"
   

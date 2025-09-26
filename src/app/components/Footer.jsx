@@ -6,6 +6,8 @@ import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDiscord, faInstagram, faLinkedin, faLinktree } from "@fortawesome/free-brands-svg-icons";
 
+const basePath = process.env.NODE_ENV === 'production' ? '/bitclubvt.org' : '';
+
 export default function Footer() {
   const footerRef = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
@@ -64,7 +66,7 @@ export default function Footer() {
           <a href="https://gobblerconnect.vt.edu/organization/bitclub" target="_blank" rel="noopener noreferrer" aria-label="GobblerConnect" className="hover:opacity-80 transition duration-300">
             <div className="flex justify-center items-center">
               <Image
-                src="/club_logos/gobblerconnect_logo_transparent.png"
+                src={`${basePath}/club_logos/gobblerconnect_logo_transparent.png`}
                 alt="GobblerConnect"
                 width={300}
                 height={35}
