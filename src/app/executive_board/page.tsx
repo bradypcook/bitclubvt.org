@@ -70,7 +70,7 @@ export default function ExecBoardPage() {
             imageSrc: "/exec_board_photos/headshots/SashaZeltser.jpg",
             bio: (
             <>
-              <b>Fun Fact:</b> I can speak Russian ! <br />
+              <b>Fun Fact:</b> I can speak Russian! <br />
               <b>Favorite Club Memory:</b> Collaborating with Accenture Finacial Services!
             </>
           ),
