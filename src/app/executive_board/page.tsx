@@ -153,7 +153,7 @@ export default function ExecBoardPage() {
             bio: (
             <>
               <b>Fun Fact:</b> My 5K PR is a 16:54! <br />
-              <b>Favorite Club Memory:</b> This year's GobblerFest!
+              <b>Favorite Club Memory:</b> 2025 GobblerFest!
             </>
             ),
             linkedin: "https://www.linkedin.com/in/bradypcook/",
@@ -230,7 +230,7 @@ export default function ExecBoardPage() {
             imageSrc: "/exec_board_photos/headshots/CheikhSamb.jpg",
             bio: (
             <>
-              <b>Fun Fact:</b> I've played basketball for over 15 years! <br />
+              <b>Fun Fact:</b> I haveve played basketball for over 15 years! <br />
               <b>Favorite Club Memory:</b> Attending GobblerFest 2025 and meeting lots of new & returing Hokies!
             </>
             ),
