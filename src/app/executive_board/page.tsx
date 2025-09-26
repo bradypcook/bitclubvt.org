@@ -255,6 +255,7 @@ export default function ExecBoardPage() {
   
   />
   <Footer />
+  {/**Fixed Images */}
 </main>
     )
 }
