@@ -66,7 +66,7 @@ export default function Footer() {
           <a href="https://gobblerconnect.vt.edu/organization/bitclub" target="_blank" rel="noopener noreferrer" aria-label="GobblerConnect" className="hover:opacity-80 transition duration-300">
             <div className="flex justify-center items-center">
               <Image
-                src={`${basePath}/club_logos/gobblerconnect_logo_transparent.png`}
+                src="/club_logos/gobblerconnect_logo_transparent.png"
                 alt="GobblerConnect"
                 width={300}
                 height={35}
