@@ -27,7 +27,7 @@ export default function Calendar() {
         </div>
 
         <p className="mt-4 text-lg sm:text-xl">
-          If you're having trouble accessing the calendar, click{" "}
+          If you are having trouble accessing the calendar, click{" "}
             <a
               href={calendarSrc}
               target="_blank"
@@ -37,7 +37,7 @@ export default function Calendar() {
               HERE
             </a>
           <br />
-          <b>NOTE: If you're signed into your VT Email, you will not be able to access the calendar</b>
+          <b>NOTE: If you are signed into your VT Email, you will not be able to access the calendar</b>
         </p>
       </div>
     </section>
