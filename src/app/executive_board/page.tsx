@@ -217,8 +217,8 @@ export default function ExecBoardPage() {
             imageSrc: "/exec_board_photos/headshots/sunny_prasad.jpg",
             bio: (
             <>
-              <b>Fun Fact:</b> I write a lot and I’ll be published in several literary magazines later this year (2025). <br />
-              <b>Favorite Club Memory:</b> BIT Club’s end-of-year celebration last semester.
+              <b>Fun Fact:</b> I write a lot and I will be published in several literary magazines later this year (2025). <br />
+              <b>Favorite Club Memory:</b> The end-of-year celebration last semester.
             </>
             ),
             linkedin: "https://www.linkedin.com/in/nihalprasad/",
