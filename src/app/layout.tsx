@@ -26,6 +26,30 @@ export const metadata: Metadata = {
   icons: {
     icon: "/bitclub_icon.ico",
   },
+  openGraph: {
+    title: "BIT Club @ VT",
+    description:
+      "Welcome to the BIT Club Website! Learn more about our club, meet our executive board, and see upcoming events!",
+    url: "https://bitclubvt.org", 
+    siteName: "BIT Club @ VT",
+    images: [
+      {
+        url: "/club_logos/bit_logo.png", 
+        width: 1200,
+        height: 630,
+        alt: "BIT Club @ VT Logo",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "BIT Club @ VT",
+    description:
+      "Welcome to the BIT Club Website! Learn more about our club, meet our executive board, and see upcoming events!",
+    images: ["/club_logos/bit_logo.png"], 
+  },
 };
 
 export default function RootLayout({
