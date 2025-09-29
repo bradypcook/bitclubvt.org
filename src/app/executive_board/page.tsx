@@ -7,7 +7,7 @@ import ImageFrame from '../components/ImageFrame';
 import ImageHeader from '../components/ImageHeader';
 
 export const metadata: Metadata = {
-  title: "Executive Board",
+  title: "Exec Board",
 }
 
 export default function ExecBoardPage() {

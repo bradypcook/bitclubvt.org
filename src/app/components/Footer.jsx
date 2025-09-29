@@ -5,6 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDiscord, faInstagram, faLinkedin, faLinktree } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 export default function Footer() {
   const footerRef = useRef(null);
@@ -44,9 +45,9 @@ export default function Footer() {
 
         <div className="flex flex-wrap justify-center items-center gap-6 text-4xl sm:text-5xl md:text-6xl">
           {/* Icons start here */}
-          {/*<a href="https://www.facebook.com/virginiatechbit" aria-label="Facebook" className="hover:text-white/70 transition-colors duration-600">
-            <FontAwesomeIcon icon={faFacebook} />
-          </a> Commenting in Facebook since I don't know if we still want it*/}
+          <a href="mailto:virginiatechbitclub@gmail.com" aria-label="Email" className="hover:text-white/70 transition-colors duration-600">
+            <FontAwesomeIcon icon={faEnvelope} />
+          </a>
           <a href="https://discord.com/invite/Z7gn4wYxsQ" target="_blank" rel="noopener noreferrer" aria-label="Discord" className="hover:text-white/70 transition-colors duration-600">
             <FontAwesomeIcon icon={faDiscord} />
           </a>
