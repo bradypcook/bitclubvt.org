@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+
+:root {
+  /* Body font */
+  --font-body: var(--font-encode-sans-condensed);
+
+  /* Header & bold font */
+  --font-heading: var(--font-hussar-bold);
+
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+/* Styles for the main body*/
+body {
+  font-family: var(--font-body), sans-serif;
+  font-weight: 400;
+  background: var(--background);
+  color: var(--foreground);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*Styles for the headers & bold text*/
+h1, h2, h3, h4, h5, h6,
+strong, b {
+  font-family: var(--font-heading), sans-serif;
+  font-weight: 700;
+}
+
+@keyframes slide-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-down {
+  animation: slide-down 1s ease-out forwards;
+}
+
