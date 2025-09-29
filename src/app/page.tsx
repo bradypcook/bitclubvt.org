@@ -21,20 +21,20 @@ export default function MainPage() {
       <PurposeSection 
       header='Purpose'
       body="We are a student run, half-social half-professional club with a goal to create community amongst BIT majors, 
-      and ensure each of our memebrs obtain premier professional and academic development through our club."
-      imageSrc="/purpose_photo.jpg"
+      and ensure each of our members obtain premier professional and academic development through our club."
+      imageSrc="/misc_photos/purpose_photo.jpg"
       />
       <WhyJoinSection 
       header='Why Join?'
-      body="As part of our mission to increase knowledge of these technology-oriented business majors we host several 
+      body="As part of our mission to increase knowledge of the BIT field, we host several 
                     career information sessions and workshops each semester as well as internal socials and other gatherings. 
                     We will be looking forward this year to initiating a greater community outreach through charitable and 
                     social events. We are a premier student organization at Virginia Tech for business majors and anyone 
                     interested in the technological field, and we welcome you to come to our events and find out what we’re 
-                    all about! Even though we are the BIT Club at Virginia Tech, we are not limited to just BIT majors, in fact, 
+                    all about! Even though we are the BIT Club at Virginia Tech, we are not limited to just BIT majors. In fact, 
                     anyone interested in this realm and wants to attend our workshops and get one-on-one contact with recruiters from 
                     companies like the Big 4 are welcome to join!"
-      imageSrc="/why_join_photo.jpg"
+      imageSrc="/misc_photos/whyjoin_photo.jpg"
       />
       <Footer />
     </main>

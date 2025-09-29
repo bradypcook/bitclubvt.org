@@ -57,8 +57,8 @@ export default function PurposeSection({ header, body, imageSrc }: PurposeProps)
           <Image
             src={imageSrc}
             alt="Purpose Image"
-            width={1400}
-            height={700}
+            width={1200}
+            height={600}
             className="w-full h-auto object-cover rounded-lg shadow-md"
           />
         </div>
