@@ -199,7 +199,7 @@ export default function ExecBoardPage() {
             name: "Tvesa Soni",
             position: "Junior Advisor",
             degree: "Sophomore | BIT-DSS",
-            imageSrc: "/exec_board_photos/headshots/TvesaSoni.jpg",
+            imageSrc: "/exec_board_photos/headshots/tvesa_soni.png",
             bio: (
             <>
               <b>Fun Fact:</b> I do sports photography! <br />
