@@ -21,7 +21,7 @@ export default function ExecBoardPage() {
   />
 
   <ImageFrame 
-  imageSrc="/exec_board_photos/group_photos/current_board_photo/BITBoard2025_2026.jpg"
+  imageSrc="/exec_board_photos/group_photos/current_board_photo/BITBoard2025_2026_alt.jpg"
   alt="BIT Board 2025-2026"
   
   />
