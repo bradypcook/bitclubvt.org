@@ -20,20 +20,16 @@ export default function MainPage() {
       <Slideshow />
       <PurposeSection 
       header='Purpose'
-      body="We are a student run, half-social half-professional club with a goal to create community amongst BIT majors, 
-      and ensure each of our members obtain premier professional and academic development through our club."
+      body="We are a student-led organization that blends professional development with a vibrant social community. Our mission is to connect BIT majors and like-minded students 
+      while fostering academic growth and preparing members for success in the business & technology fields."
       imageSrc="/misc_photos/purpose_photo.jpg"
       />
       <WhyJoinSection 
       header='Why Join?'
-      body="As part of our mission to increase knowledge of the BIT field, we host several 
-                    career information sessions and workshops each semester as well as internal socials and other gatherings. 
-                    We will be looking forward this year to initiating a greater community outreach through charitable and 
-                    social events. We are a premier student organization at Virginia Tech for business majors and anyone 
-                    interested in the technological field, and we welcome you to come to our events and find out what we’re 
-                    all about! Even though we are the BIT Club at Virginia Tech, we are not limited to just BIT majors. In fact, 
-                    anyone interested in this realm and wants to attend our workshops and get one-on-one contact with recruiters from 
-                    companies like the Big 4 are welcome to join!"
+      body="As part of our mission to advance understanding of the BIT field, we host career information sessions, skill-building workshops, and engaging social events each semester.
+
+      The BIT Club is a leading student organization at Virginia Tech for anyone passionate about technology, business, and innovation. Whether you’re a BIT major or simply curious about the field, 
+      you’ll gain valuable experience and direct access to recruiters from companies like CGI, Deloitte, and Amazon."
       imageSrc="/misc_photos/whyjoin_photo.jpg"
       />
       <Footer />
