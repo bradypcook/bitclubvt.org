@@ -2,6 +2,8 @@
 
 resources
 ResourcesDisplay.tsx
+ResourceCards.tsx
+Navbar.jsx
 
 # dependencies
 /node_modules

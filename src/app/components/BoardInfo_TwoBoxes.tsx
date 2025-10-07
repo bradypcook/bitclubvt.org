@@ -41,7 +41,7 @@ export default function TwoBoxes({ boxes }: TwoBoxesProps) {
               {box.members.map((member, idx) => (
                 <div
                   key={idx}
-                  className="bg-white rounded-xl shadow-md p-4 sm:p-6 flex flex-col items-center min-w-[240px] max-w-[280px] flex-grow basis-[240px]"
+                  className="bg-[#FdF8E8] rounded-xl shadow-md p-4 sm:p-6 flex flex-col items-center min-w-[240px] max-w-[280px] flex-grow basis-[240px]"
                 >
                   <Image
                     src={member.imageSrc}
@@ -68,7 +68,7 @@ export default function TwoBoxes({ boxes }: TwoBoxesProps) {
         {selected && (
           <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
             <div
-              className="bg-white rounded-2xl shadow-xl max-w-3xl w-full flex flex-col md:flex-row p-6 relative pt-12 md:pt-6"
+              className="bg-[#FdF8E8] rounded-2xl shadow-xl max-w-3xl w-full flex flex-col md:flex-row p-6 relative pt-12 md:pt-6"
               onClick={(e) => e.stopPropagation()}
             >
               {/* Large Image */}

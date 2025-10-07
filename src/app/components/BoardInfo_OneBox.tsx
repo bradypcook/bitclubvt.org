@@ -32,7 +32,7 @@ export default function ExecCommittee({ title, members }: ExecCommitteeProps) {
             {members.map((member, idx) => (
             <div
                 key={idx}
-                className="bg-white rounded-xl shadow-md p-6 flex flex-col items-center w-72"
+                className="bg-[#FdF8E8] rounded-xl shadow-md p-6 flex flex-col items-center w-72"
             >
                 <Image
                 src={member.imageSrc}
@@ -55,7 +55,7 @@ export default function ExecCommittee({ title, members }: ExecCommitteeProps) {
         {selected && (
           <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
             <div
-              className="bg-white rounded-2xl shadow-xl max-w-3xl w-full flex flex-col md:flex-row p-6 relative pt-12 md:pt-6"
+              className="bg-[#FdF8E8] rounded-2xl shadow-xl max-w-3xl w-full flex flex-col md:flex-row p-6 relative pt-12 md:pt-6"
               onClick={(e) => e.stopPropagation()} // prevent closing modal when clicking inside
             >
               {/* Large Image */}

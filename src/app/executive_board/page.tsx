@@ -97,7 +97,7 @@ export default function ExecBoardPage() {
             bio: (
             <>
               <b>Fun Fact:</b> I can speak 4 languages! <br />
-              <b>Favorite Club Memory:</b> THe Deloitte Resume Workshop!
+              <b>Favorite Club Memory:</b> The Deloitte Resume Workshop!
             </>
             ),
             linkedin: "https://www.linkedin.com/in/adibaasma/",
