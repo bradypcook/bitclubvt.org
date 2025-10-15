@@ -17,7 +17,7 @@ interface Box {
 }
 
 interface TwoBoxesProps {
-  boxes: Box[]; // Instead of one "title + members", now you pass multiple boxes
+  boxes: Box[]; // Instead of one "title + members", now you can pass multiple boxes
 }
 
 export default function TwoBoxes({ boxes }: TwoBoxesProps) {
@@ -31,12 +31,12 @@ export default function TwoBoxes({ boxes }: TwoBoxesProps) {
             key={i}
             className="bg-[#F26645] rounded-2xl shadow-lg p-4 sm:p-6 md:p-8 flex-1 min-w-0"
           >
-            {/* Title */}
+            {/* PAGE TITLE*/}
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-6 sm:mb-8 md:mb-10 text-[#861F41]">
               {box.title}
             </h2>
 
-            {/* Member Cards */}
+            {/* MEMBER CARDS */}
             <div className="flex flex-wrap justify-center gap-4 sm:gap-6 md:gap-8">
               {box.members.map((member, idx) => (
                 <div
@@ -64,14 +64,14 @@ export default function TwoBoxes({ boxes }: TwoBoxesProps) {
         ))}
       </div>
 
-      {/* Modal */}
+      {/* Modal (is why the screen is black)*/}
         {selected && (
           <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
             <div
               className="bg-[#FdF8E8] rounded-2xl shadow-xl max-w-3xl w-full flex flex-col md:flex-row p-6 relative pt-12 md:pt-6"
               onClick={(e) => e.stopPropagation()}
             >
-              {/* Large Image */}
+              {/* Large Image - fix this sometime? */}
               <div className="flex-shrink-0 md:mr-6 mb-4 md:mb-0">
                 <Image
                   src={selected.imageSrc}
@@ -82,7 +82,7 @@ export default function TwoBoxes({ boxes }: TwoBoxesProps) {
                 />
               </div>
 
-              {/* Bio */}
+              {/* BOARD MEMBER BIO (repeats for each member automatically) */}
               <div className="flex-1">
                 <h3 className="text-2xl font-bold text-[#861F41]">
                   {selected.name}
@@ -101,7 +101,7 @@ export default function TwoBoxes({ boxes }: TwoBoxesProps) {
                 )}
               </div>
 
-              {/* Close button */}
+              {/* CLOSE BUTTON */}
               <button
                 className="absolute top-3 right-3 text-gray-500 hover:text-black text-3xl font-bold"
                 onClick={() => setSelected(null)}

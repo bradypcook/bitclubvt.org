@@ -15,7 +15,7 @@ export default function Calendar() {
           You can view all of our current and upcoming events!
         </p>
 
-        {/* Responsive Calendar */}
+        {/* Calendar iframe (this is where it goes) */}
         <div className="relative pb-[75%] h-0 overflow-hidden rounded-lg shadow-lg">
           <iframe
             src={calendarSrc}

@@ -35,7 +35,7 @@ export default function Footer() {
       className={`max-w-7xl mx-auto text-center transition-all duration-3000 ease-out
       ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
       >
-        {/* Text on top of the icons */}
+        {/* TEXT ABOVE ICONS */}
         <p
           className="text-2xl sm:text-3xl md:text-4xl mb-8"
           style={{ fontFamily: "var(--font-encode-sans-condensed), sans-serif" }}
@@ -44,7 +44,7 @@ export default function Footer() {
         </p>
 
         <div className="flex flex-wrap justify-center items-center gap-6 text-4xl sm:text-5xl md:text-6xl">
-          {/* Icons start here */}
+          {/* START OF ICONS */}
           <a href="mailto:virginiatechbitclub@gmail.com" aria-label="Email" className="hover:text-white/70 transition-colors duration-600">
             <FontAwesomeIcon icon={faEnvelope} />
           </a>
@@ -61,7 +61,7 @@ export default function Footer() {
             <FontAwesomeIcon icon={faLinktree} />
           </a>
 
-          {/* GobblerConnect Image */}
+          {/* GobblerConnect Image (since an icon doesn't exist)*/}
           <a href="https://gobblerconnect.vt.edu/organization/bitclub" target="_blank" rel="noopener noreferrer" aria-label="GobblerConnect" className="hover:opacity-80 transition duration-300">
             <div className="flex justify-center items-center">
               <Image
