@@ -61,6 +61,24 @@ export default function Footer() {
             <FontAwesomeIcon icon={faLinktree} />
           </a>
 
+          {/* GroupMe Image (since an icon doesn't exist) --- may remove this in future but will include for now*/}
+          <a
+            href="https://groupme.com/join_group/88523144/4IcPmpKS"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GroupMe"
+            className="hover:opacity-80 transition duration-300"
+          >
+            <div className="flex justify-center items-center">
+              <Image
+                src="/club_logos/groupme_logo_transparent.png"
+                alt="GroupMe"
+                width={60}
+                height={40}
+                className="object-contain w-9 sm:w-10 md:w-14 h-auto"
+              />
+            </div>
+          </a>
           {/* GobblerConnect Image (since an icon doesn't exist)*/}
           <a href="https://gobblerconnect.vt.edu/organization/bitclub" target="_blank" rel="noopener noreferrer" aria-label="GobblerConnect" className="hover:opacity-80 transition duration-300">
             <div className="flex justify-center items-center">

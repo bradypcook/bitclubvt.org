@@ -38,12 +38,14 @@ export default function ResourcesPage() {
       title: "Pamplin Career Services",
       description: "Get help with resumes, interviews, and more from Pamplin’s dedicated career team.",
       imageSrc: "/misc_photos/pamplin_career_services.jpg",
+      buttonText: "Pamplin Career Services",
       buttonLink: "https://pamplin.vt.edu/undergraduate-programs/career-services.html",
     },
     {
-      title: "VT Career & Professional Developent Center",
+      title: "VT Career & Professional Development Center",
       description: "University-wide resources offering career fairs, advising, and employer connections.",
       imageSrc: "/misc_photos/vt_cpd.jpg",
+      buttonText: "VT C&PD Center",
       buttonLink: "https://career.vt.edu/",
     },
   ];

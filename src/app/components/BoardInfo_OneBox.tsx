@@ -59,6 +59,10 @@ export default function ExecCommittee({ title, members }: ExecCommitteeProps) {
               onClick={(e) => e.stopPropagation()} // prevent closing modal when clicking inside
             >
               {/* Large Image */}
+              {/** Note for future web developers working on this site:
+               *    - Given the way this code is currently set up (see below), you may have to adjust the resolution of the photos so that they don't overflow the container (since the native resolution from Roman's photos was like 4K)
+               *        - If desired, you can modify the code to adapt for this change, or you can just modify the resulotion manually so that way they fit within the card (either works).  
+               */}
               <div className="flex-shrink-0 md:mr-6 mb-4 md:mb-0">
                 <Image
                   src={selected.imageSrc}
