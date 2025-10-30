@@ -1,12 +1,16 @@
-"use client";
+
 import React from "react";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-
+import Navbar from "@/app/components/Navbar";
+import Footer from "@/app/components/Footer";
+import type { Metadata } from 'next';
 import ResourceBox from "@/app/components/ResourceBox";
-import ResourceHero from "../components/ResourceHero";
+import ResourceHero from "@/app/components/ResourceHero";
 
-export default function ResourcesPage() {
+export const metadata: Metadata = {
+  title: "General Resources",
+}
+
+export default function GeneralResources() {
   const resume_coverletterTemplates = [
     {
       title: "Harvard Resume Template",
@@ -57,10 +61,6 @@ export default function ResourcesPage() {
       <ResourceBox title="Resume & Cover Letter Templates" resources={resume_coverletterTemplates} />
       <ResourceHero heroHeader="Want expert advice?" heroSubText="Visit Pamplin Career Services or VT's Career & Professional Development Center at the links below!"/>
       <ResourceBox title="Virginia Tech Career Resources" resources={careerServices} />
-      {/** Plan for the rest of this page: Create a career paths section for each of the 3 concentrations, with certs, career roadmap, and other resources in each. 
-       * 
-       * Only issue with that is finding out how to do an option dropdown for Navbar (since we only need it for the resources tab)
-       */}
       <Footer />
     </main>
   );

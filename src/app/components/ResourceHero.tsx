@@ -25,16 +25,16 @@ export default function ResourceHero({
         </p>
 
         {showSecondText && (
-          <div className="mt-10 border-t border-[#E5DCC5] pt-6">
+          <div className="mt-2 pt-1">
             <p className="text-lg text-black sm:text-xl mb-10">
-              Want access to more resources, insider tips, and to connect with your peers? Check out our{" "}
+              (Psst... want access to more resources, insider tips, and to connect with your peers? Check out our{" "}
               <Link
                 href="/events"
                 className="text-[#F26645] underline hover:text-[#d35438] transition-colors duration-200"
               >
                 Events page
               </Link>{" "}
-              and join us at a club meeting!
+              and join us at a club meeting!)
             </p>
           </div>
         )}

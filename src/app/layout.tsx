@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Encode_Sans_Condensed } from "next/font/google";
 import localFont from "next/font/local";
+import Script from "next/script";
 import "./globals.css";
 
 const encodeSansCondensed = Encode_Sans_Condensed({
@@ -12,7 +13,7 @@ const encodeSansCondensed = Encode_Sans_Condensed({
 const hussarBold = localFont({
   src: "./fonts/HussarBoldWeb.otf",
   variable: "--font-hussar-bold",
-  weight: "700", 
+  weight: "700",
   style: "normal",
 });
 
@@ -30,11 +31,11 @@ export const metadata: Metadata = {
     title: "BIT Club @ VT",
     description:
       "Welcome to the BIT Club Website! Learn more about our club, meet our executive board, and see upcoming events!",
-    url: "https://bitclubvt.org", 
+    url: "https://bitclubvt.org",
     siteName: "BIT Club @ VT",
     images: [
       {
-        url: "/club_logos/bit_logo.png", 
+        url: "/club_logos/bit_logo.png",
         width: 1200,
         height: 630,
         alt: "BIT Club @ VT Logo",
@@ -48,7 +49,7 @@ export const metadata: Metadata = {
     title: "BIT Club @ VT",
     description:
       "Welcome to the BIT Club Website! Learn more about our club, meet our executive board, and see upcoming events!",
-    images: ["/club_logos/bit_logo.png"], 
+    images: ["/club_logos/bit_logo.png"],
   },
 };
 
@@ -62,6 +63,21 @@ export default function RootLayout({
       <body
         className={`${encodeSansCondensed.variable} ${hussarBold.variable} antialiased`}
       >
+        {/*  Google Analytics - Tracks website viewership. DO NOT TOUCH!! */}
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-V7EQQETPDH"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-V7EQQETPDH');
+          `}
+        </Script>
+
         {children}
       </body>
     </html>
