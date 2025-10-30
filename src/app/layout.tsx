@@ -60,10 +60,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body
-        className={`${encodeSansCondensed.variable} ${hussarBold.variable} antialiased`}
-      >
-        {/*  Google Analytics - Tracks website viewership. DO NOT TOUCH!! */}
+      <head>
+        {/* Google Analytics */}
         <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-V7EQQETPDH"
@@ -77,7 +75,10 @@ export default function RootLayout({
             gtag('config', 'G-V7EQQETPDH');
           `}
         </Script>
-
+      </head>
+      <body
+        className={`${encodeSansCondensed.variable} ${hussarBold.variable} antialiased`}
+      >
         {children}
       </body>
     </html>
