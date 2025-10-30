@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Encode_Sans_Condensed } from "next/font/google";
 import localFont from "next/font/local";
-import Script from "next/script";
+import { GoogleAnalytics } from '@next/third-parties/google'
 import "./globals.css";
 
 const encodeSansCondensed = Encode_Sans_Condensed({
@@ -60,26 +60,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        {/* Google Analytics */}
-        <Script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-V7EQQETPDH"
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-V7EQQETPDH');
-          `}
-        </Script>
-      </head>
       <body
         className={`${encodeSansCondensed.variable} ${hussarBold.variable} antialiased`}
       >
         {children}
+        <GoogleAnalytics gaId="G-V7EQQETPDH" />
       </body>
     </html>
   );
