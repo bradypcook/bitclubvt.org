@@ -37,7 +37,7 @@ export default function MainPageSlideshow() {
       ))}
 
       <div className="relative z-10 text-center px-4">
-         <img src="/club_logos/bit_logo_text_transparent_extended.png" alt="Header Test" className="mx-auto h-32 md:h-48" />
+         <img src="/main_logos_and_assets/logos/club_logos/bit_logo_text_transparent_extended.png" alt="Header Test" className="mx-auto h-32 md:h-48" />
 
         {/* <h1 className="text-4xl sm:text-5xl md:text-8xl font-extrabold">
           BIT Club

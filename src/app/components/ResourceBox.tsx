@@ -31,7 +31,7 @@ export default function ResourceBox({ title, resources }: ResourceBoxProps) {
           {resources.map((resource, idx) => (
             <div
               key={idx}
-              className="bg-[#FDF8E8] rounded-xl overflow-hidden shadow-md w-72 flex flex-col hover:shadow-lg hover:scale-105 transition-transform duration-300"
+              className="bg-[#FDF8E8] rounded-xl overflow-hidden shadow-md w-72 flex flex-col hover:shadow-lg hover:scale-105 transition-[transform,box-shadow] duration-300"
             >
               <div className="relative w-full h-40">
                 <Image

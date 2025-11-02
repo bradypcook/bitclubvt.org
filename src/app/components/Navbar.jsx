@@ -20,9 +20,9 @@ export default function Navbar() {
 
   const resourceLinks = [
     { name: "General Resources", href: "/resources/general_resources" },
-    // { name: "BIT CMA Resources", href: "/resources/bit_cma_resources" },
-    // { name: "BIT DSS Resources", href: "/resources/bit_dss_resources" },
-    // { name: "BIT OSM Resources", href: "/resources/bit_osm_resources" },
+    { name: "BIT CMA Resources", href: "/resources/bit_cma_resources" },
+    { name: "BIT DSS Resources", href: "/resources/bit_dss_resources" },
+    { name: "BIT OSM Resources", href: "/resources/bit_osm_resources" },
   ];
 
   return (

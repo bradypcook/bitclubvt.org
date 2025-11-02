@@ -14,25 +14,25 @@ export default function GeneralResources() {
   const resume_coverletterTemplates = [
     {
       title: "Harvard Resume Template",
-      imageSrc: "/misc_photos/harvard_template.png",
+      imageSrc: "/main_logos_and_assets/assets/harvard_template.png",
       buttonText: "View Resume Template",
       buttonLink: "https://docs.google.com/document/d/1-_1zvnv0JP1DGgMwCI-IhwH12qiO1s2geYLL8b2oIuY/copy",
     },
     {
       title: "Jake's Resume Template",
-      imageSrc: "/misc_photos/jakes_template.png",
+      imageSrc: "/main_logos_and_assets/assets/jakes_template.png",
       buttonText: "View Resume Template",
       buttonLink: "https://docs.google.com/document/d/1Z9sB5bg5lbZSQKVT9rAaHGZdMHEP_TpG/copy",
     },
      {
       title: "Harvard Cover Letter Template",
-      imageSrc: "/misc_photos/harvard_cl_template.png",
+      imageSrc: "/main_logos_and_assets/assets/harvard_cl_template.png",
       buttonText: "View Cover Letter Template",
       buttonLink: "https://docs.google.com/document/d/1rdsP_omqUgfjaM2je12ECvAbMcT_qURWm2uUskVt6nM/copy",
     },
     {
       title: "Princeton Cover Letter Template",
-      imageSrc: "/misc_photos/princeton_cl_template.png",
+      imageSrc: "/main_logos_and_assets/assets/princeton_cl_template.png",
       buttonText: "View Cover Letter Template",
       buttonLink: "https://docs.google.com/document/d/1CZbi1j7DH11gn-teYt4wQ6479dSZ8teUCQ5scCLvgr8/copy",
     },
@@ -41,14 +41,14 @@ export default function GeneralResources() {
     {
       title: "Pamplin Career Services",
       description: "Get help with resumes, interviews, and more from Pamplin’s dedicated career team.",
-      imageSrc: "/misc_photos/pamplin_career_services.jpg",
+      imageSrc: "/main_logos_and_assets/assets/pamplin_career_services.jpg",
       buttonText: "Pamplin Career Services",
       buttonLink: "https://pamplin.vt.edu/undergraduate-programs/career-services.html",
     },
     {
       title: "VT Career & Professional Development Center",
       description: "University-wide resources offering career fairs, advising, and employer connections.",
-      imageSrc: "/misc_photos/vt_cpd.jpg",
+      imageSrc: "/main_logos_and_assets/assets/vt_cpd.jpg",
       buttonText: "VT C&PD Center",
       buttonLink: "https://career.vt.edu/",
     },

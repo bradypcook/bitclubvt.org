@@ -71,7 +71,7 @@ export default function Footer() {
           >
             <div className="flex justify-center items-center">
               <Image
-                src="/club_logos/groupme_logo_transparent.png"
+                src="/main_logos_and_assets/logos/other_logos/groupme_logo_transparent.png"
                 alt="GroupMe"
                 width={60}
                 height={40}
@@ -83,7 +83,7 @@ export default function Footer() {
           <a href="https://gobblerconnect.vt.edu/organization/bitclub" target="_blank" rel="noopener noreferrer" aria-label="GobblerConnect" className="hover:opacity-80 transition duration-300">
             <div className="flex justify-center items-center">
               <Image
-                src="/club_logos/gobblerconnect_logo_transparent.png"
+                src="/main_logos_and_assets/logos/other_logos/gobblerconnect_logo_transparent.png"
                 alt="GobblerConnect"
                 width={300}
                 height={35}
