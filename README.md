@@ -8,4 +8,4 @@ For other administrative-level questions, you can contact our President, Madison
 
 Happy browsing!
 
-<img src="https://bitclubvt.org/main_logos_and_assets/logos/club_logos/bit_logo_transparent.png" alt="HawkNode Security Network Toplogy">
+<img src="https://bitclubvt.org/main_logos_and_assets/logos/club_logos/bit_logo_transparent.png" alt="BIT Club Logo">
