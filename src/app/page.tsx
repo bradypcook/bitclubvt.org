@@ -9,7 +9,7 @@ import WhyJoinSection from './components/WhyJoin';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Home | BIT Club @ VT",
+  title: "BIT Club @ VT",
   // For some reason in the main page, you have to list out the full title. I don't know why, but it works this way so that's what matters.
 }
 
@@ -22,7 +22,7 @@ export default function MainPage() {
       header='Purpose'
       body="We are a student-led organization that blends professional development with a vibrant social community. Our mission is to connect BIT majors and like-minded students 
       while fostering academic growth and preparing members for success in the business & technology fields."
-      imageSrc="/main_logos_and_assets/assets/purpose_photo.jpg"
+      imageSrc="/main_logos_and_assets/assets/purpose_photo_new.jpg"
       />
       <WhyJoinSection 
       header='Why Join?'

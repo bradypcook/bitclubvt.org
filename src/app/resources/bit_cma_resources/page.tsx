@@ -67,7 +67,7 @@ export default function BITCMAResources() {
   const otherResources = [
     {
       title: "Professor Messer",
-      description: "Professor Messer is a Youtuber who publishes helpful study & educational content for COMPTIA certs and other cybersecurity topics.",
+      description: "Professor Messer is a Youtuber who publishes helpful study & educational content for CompTIA certs and other cybersecurity topics.",
       imageSrc: "/main_logos_and_assets/logos/other_logos/professor_messer_logo.png",
       buttonText: "View Professor Messer's Channel",
       buttonLink: "https://www.youtube.com/user/professormesser",

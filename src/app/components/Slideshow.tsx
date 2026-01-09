@@ -8,7 +8,11 @@ const images = [
   "/slideshow_photos/ey_event_crowd_picture.png",
   "/slideshow_photos/DSC01357-3.jpg",
   "/slideshow_photos/hokiebirdwarm.jpg",
-  // fun fact, hokebirdwarm is actually my own photo LOL
+  "/slideshow_photos/DSC02583.jpg",
+  "/slideshow_photos/mocktails_1.png",
+  "/slideshow_photos/mocktails_2.png",
+
+  // fun fact, hokebirdwarm is actually my own photo
 ];
 
 export default function MainPageSlideshow() {
