@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     siteName: "BIT Club @ VT",
     images: [
       {
-        url: "/club_logos/bit_logo.png",
+        url: "/club_logos/bit_logo_transparent.png",
         width: 1200,
         height: 630,
         alt: "BIT Club @ VT Logo",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     title: "BIT Club @ VT",
     description:
       "Welcome to the BIT Club Website! Learn more about our club, meet our executive board, and see upcoming events!",
-    images: ["/club_logos/bit_logo.png"],
+    images: ["/club_logos/bit_logo_transparent.png"],
   },
 };
 
