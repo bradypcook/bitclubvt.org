@@ -12,7 +12,7 @@ export default function Calendar() {
           Check out our Google Calendar!
         </h1>
         <p className="text-lg sm:text-xl mb-8">
-          You can view all of our current and upcoming events!
+          You can view all of the BIT Club's current & upcoming events, as well as Virginia Tech's Academic Dates and Deadlines!
         </p>
 
         {/* Calendar iframe (this is where it goes) */}

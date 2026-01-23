@@ -3,12 +3,12 @@ import { useState, useEffect } from "react";
 
 const images = [
   // THIS IS WHERE THE PHOTOS FOR THE SLIDESHOW GO!!
-  "/slideshow_photos/DSC00728.jpg",
-  "/slideshow_photos/DSC00802.jpg",
+  "/slideshow_photos/DSC00728_resized.webp",
+  "/slideshow_photos/DSC00802_resized.webp",
   "/slideshow_photos/ey_event_crowd_picture.png",
-  "/slideshow_photos/DSC01357-3.jpg",
-  "/slideshow_photos/hokiebirdwarm.jpg",
-  "/slideshow_photos/DSC02583.jpg",
+  "/slideshow_photos/DSC01357_resized.webp",
+  "/slideshow_photos/hokiebirdwarm_resized.webp",
+  "/slideshow_photos/DSC02583_resized.webp",
   "/slideshow_photos/mocktails_1.png",
   "/slideshow_photos/mocktails_2.png",
 
