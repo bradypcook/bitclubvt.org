@@ -75,14 +75,14 @@ export default function BITCMAResources() {
     {
       title: "HackTheBox",
       description: "HackTheBox is a website that allows you to grow your cybersecurity knowledge by competing in CTFs and other real-world exercises",
-      imageSrc: "/main_logos_and_assets/assets/hackthebox.png",
+      imageSrc: "/main_logos_and_assets/assets/hackthebox_resized.webp",
       buttonText: "HackTheBox",
       buttonLink: "https://www.hackthebox.com/",
     },
     {
       title: "TryHackMe",
       description: "TryHackMe is a website that has several cybersecurity-related modules where you can learn important concepts, as well as practice by completing real-world tasks. ",
-      imageSrc: "/main_logos_and_assets/assets/tryhackme.png",
+      imageSrc: "/main_logos_and_assets/assets/tryhackme_resized.webp",
       buttonText: "TryHackMe",
       buttonLink: "https://tryhackme.com/",
     },
