@@ -33,6 +33,13 @@ export default function BITDSSResources() {
       buttonText: "Certified Data Management Professional",
       buttonLink: "https://dama.org/certification/about-cdmp-certification/",
     },
+    {
+      title: "Six Sigma Green Belt",
+      description: "Six Sigma Green Belt is a certification that equips professionals to lead process improvements initiatives and help improve efficiency.",
+      imageSrc: "/main_logos_and_assets/logos/other_logos/sigma_greenbelt_badge.webp",
+      buttonText: "Six Sigma Green Belt",
+      buttonLink: "https://www.sixsigmacouncil.org/six-sigma-green-belt-certification/",
+    },
   ];
   const careerRoadMap = [
     {

@@ -86,6 +86,20 @@ export default function BITCMAResources() {
       buttonText: "TryHackMe",
       buttonLink: "https://tryhackme.com/",
     },
+    {
+      title: "ISSA",
+      description: "ISSA, or the Information Systems Security Association, is an association of professionals in the Information Security Industry. They have chapters worldwide, including some across Virginia.",
+      imageSrc: "/main_logos_and_assets/logos/other_logos/issa_logo.webp",
+      buttonText: "ISSA",
+      buttonLink: "https://issa.org/",
+    },
+    //{
+      //title: "Sample Card",
+      //description: "_____",
+      //imageSrc: "/main_logos_and_assets/assets/tryhackme_resized.webp",
+      //buttonText: "____",
+      //buttonLink: "https://______",
+    //},
   ];
 
   return (

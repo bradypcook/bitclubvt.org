@@ -16,6 +16,8 @@ export default function Navbar() {
     { name: "Executive Board", href: "/executive_board" },
     { name: "Events", href: "/events" },
     { name: "Dues & Membership", href: "/dues_and_membership" },
+    // { name: "Campus Events", href: "/club_feed" },
+
   ];
 
   const resourceLinks = [
