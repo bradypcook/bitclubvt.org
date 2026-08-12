@@ -6,6 +6,8 @@ import type { Metadata } from 'next';
 import ImageFrame from '../components/ImageFrame';
 import ImageHeader from '../components/ImageHeader';
 
+const basePath = process.env.NODE_ENV === 'production' ? '/bitclubvt2025-2026' : '';
+
 export const metadata: Metadata = {
   title: "Exec Board",
 }
@@ -21,7 +23,7 @@ export default function ExecBoardPage() {
   />
 
   <ImageFrame 
-  imageSrc="/exec_board_photos/group_photos/current_board_photo/BITBoard2025_2026_alt.jpg"
+  imageSrc={`${basePath}/exec_board_photos/group_photos/current_board_photo/BITBoard2025_2026_alt.jpg`}
   alt="BIT Board 2025-2026"
   
   />
@@ -33,7 +35,7 @@ export default function ExecBoardPage() {
         name: "Madison Bui",
         position: "President",
         degree: "Senior | BIT-CMA",
-        imageSrc: "/exec_board_photos/headshots/madison_bui.jpg",
+        imageSrc: `${basePath}/exec_board_photos/headshots/madison_bui.jpg`,
         bio: (
         <>
           <b>Fun Fact:</b> I love to cook for my friends and family and lift heavy at the gym! <br />
@@ -46,7 +48,7 @@ export default function ExecBoardPage() {
         name: "Christopher Zhong",
         position: "Vice President",
         degree: "Senior | BIT-CMA",
-        imageSrc: "/exec_board_photos/headshots/christopher_zhong.jpg",
+        imageSrc: `${basePath}/exec_board_photos/headshots/christopher_zhong.jpg`,
         bio: (
             <>
               <b>Fun Fact:</b> I did over 1,000 miles of biking over the pandemic! <br />
@@ -67,7 +69,7 @@ export default function ExecBoardPage() {
             name: "Sasha Zeltser",
             position: "Events Chair",
             degree: "Junior | BIT-CMA",
-            imageSrc: "/exec_board_photos/headshots/sasha_zeltser.jpg",
+            imageSrc: `${basePath}/exec_board_photos/headshots/sasha_zeltser.jpg`,
             bio: (
             <>
               <b>Fun Fact:</b> I can speak Russian! <br />
@@ -80,7 +82,7 @@ export default function ExecBoardPage() {
             name: "Eman Tuku",
             position: "Socials Chair",
             degree: "Senior | BIT-DSS",
-            imageSrc: "/exec_board_photos/headshots/eman_tuku.jpg",
+            imageSrc: `${basePath}/exec_board_photos/headshots/eman_tuku.jpg`,
             bio: (
             <>
               <b>Fun Fact:</b> I was born in Minnesota! <br />
@@ -93,7 +95,7 @@ export default function ExecBoardPage() {
             name: "Asma Abida",
             position: "Treasurer & Secretary",
             degree: "Junior | BIT",
-            imageSrc: "/exec_board_photos/headshots/asma_adiba.jpg",
+            imageSrc: `${basePath}/exec_board_photos/headshots/asma_adiba.jpg`,
             bio: (
             <>
               <b>Fun Fact:</b> I can speak 4 languages! <br />
@@ -111,7 +113,7 @@ export default function ExecBoardPage() {
             name: "Roman Willis",
             position: "Director of Marketing",
             degree: "Sophomore | BIT-CMA and National Security & Foreign Affairs (Minor)",
-            imageSrc: "/exec_board_photos/headshots/roman_willis.jpg",
+            imageSrc: `${basePath}/exec_board_photos/headshots/roman_willis.jpg`,
             bio: (
             <>
               <b>Fun Fact:</b> I do photography and videography as a hobby & side hustle! <br />
@@ -124,7 +126,7 @@ export default function ExecBoardPage() {
             name: "Naren Kota",
             position: "Director of Communications",
             degree: "Senior | BIT-CMA",
-            imageSrc: "/exec_board_photos/headshots/naren_kota.jpg",
+            imageSrc: `${basePath}/exec_board_photos/headshots/naren_kota.jpg`,
             bio: (
             <>
               <b>Fun Fact:</b> I love pickleball! <br />
@@ -147,7 +149,7 @@ export default function ExecBoardPage() {
             name: "Brady Cook",
             position: "Web Design Chair",
             degree: "Sophomore | BIT-CMA",
-            imageSrc: "/exec_board_photos/headshots/brady_cook.jpg",
+            imageSrc: `${basePath}/exec_board_photos/headshots/brady_cook.jpg`,
             bio: (
             <>
               <b>Fun Fact:</b> My 5K PR is a 16:54! <br />
@@ -165,7 +167,7 @@ export default function ExecBoardPage() {
             name: "Meghana (Meg) Gunda",
             position: "Senior Advisor",
             degree: "Senior | BIT-CMA",
-            imageSrc: "/exec_board_photos/headshots/meghana_gunda.jpg",
+            imageSrc: `${basePath}/exec_board_photos/headshots/meghana_gunda.jpg`,
             bio: (
             <>
               <b>Fun Fact:</b> I love going out and trying new things! <br />
@@ -178,7 +180,7 @@ export default function ExecBoardPage() {
             name: "Tanvi Aggarwal",
             position: "Junior Advisor",
             degree: "Sophomore | BIT-DSS",
-            imageSrc: "/exec_board_photos/headshots/tanvi_aggarwal.jpg",
+            imageSrc: `${basePath}/exec_board_photos/headshots/tanvi_aggarwal.jpg`,
             bio: (
             <>
               <b>Fun Fact:</b> I have been to 13 countries! <br />
@@ -191,7 +193,7 @@ export default function ExecBoardPage() {
             name: "Tvesa Soni",
             position: "Junior Advisor",
             degree: "Sophomore | BIT-DSS",
-            imageSrc: "/exec_board_photos/headshots/tvesa_soni.jpg",
+            imageSrc: `${basePath}/exec_board_photos/headshots/tvesa_soni.jpg`,
             bio: (
             <>
               <b>Fun Fact:</b> I do sports photography! <br />
@@ -204,7 +206,7 @@ export default function ExecBoardPage() {
             name: "Nihal (Sunny) Prasad",
             position: "Junior Advisor",
             degree: "Sophomore | BIT-CMA & Corporate Financal Management",
-            imageSrc: "/exec_board_photos/headshots/nihal_prasad.jpg",
+            imageSrc: `${basePath}/exec_board_photos/headshots/nihal_prasad.jpg`,
             bio: (
             <>
               <b>Fun Fact:</b> I write a lot and I will be published in several literary magazines later this year (2025). <br />
@@ -217,7 +219,7 @@ export default function ExecBoardPage() {
             name: "Cheikh Samb",
             position: "Junior Advisor",
             degree: "Junior | BIT",
-            imageSrc: "/exec_board_photos/headshots/cheikh_samb.jpg",
+            imageSrc: `${basePath}/exec_board_photos/headshots/cheikh_samb.jpg`,
             bio: (
             <>
               <b>Fun Fact:</b> I haveve played basketball for over 15 years! <br />
@@ -235,19 +237,18 @@ export default function ExecBoardPage() {
   text='Previous Executive Boards'
   />
   <ImageFrame 
-  imageSrc="/exec_board_photos/group_photos/previous_board_photos/BITBoard2024_2025.jpg"
+  imageSrc={`${basePath}/exec_board_photos/group_photos/previous_board_photos/BITBoard2024_2025.jpg`}
   alt="BIT Board 2024-2025"
   caption="BIT Board 2024-2025"
   
   />
   <ImageFrame 
-  imageSrc="/exec_board_photos/group_photos/previous_board_photos/BITBoard2023_2024.png"
+  imageSrc={`${basePath}/exec_board_photos/group_photos/previous_board_photos/BITBoard2023_2024.png`}
   alt="BIT Board 2024-2025"
   caption="BIT Board 2023-2024"
   
   />
   <Footer />
-  {/**Fixed Images */}
 </main>
     )
 }

@@ -6,6 +6,8 @@ import type { Metadata } from 'next';
 import ResourceBox from "@/app/components/ResourceBox";
 import ResourceHero from "@/app/components/ResourceHero";
 
+const basePath = process.env.NODE_ENV === 'production' ? '/bitclubvt2025-2026' : '';
+
 export const metadata: Metadata = {
   title: "BIT-CMA Resources",
 }
@@ -15,35 +17,35 @@ export default function BITCMAResources() {
     {
       title: "CompTIA Security+",
       description: "Validates foundational cybersecurity skills and best practices for securing networks and systems.",
-      imageSrc: "/main_logos_and_assets/logos/other_logos/comptia_security+.svg",
+      imageSrc: `${basePath}/main_logos_and_assets/logos/other_logos/comptia_security+.svg`,
       buttonText: "CompTIA Security+",
       buttonLink: "https://www.comptia.org/en-us/certifications/security/",
     },
     {
       title: "ISC2",
       description: "Demonstrates entry-level knowledge in security principles, risk management, and network security.",
-      imageSrc: "/main_logos_and_assets/logos/other_logos/isc2.png",
+      imageSrc: `${basePath}/main_logos_and_assets/logos/other_logos/isc2.png`,
       buttonText: "ISC2",
       buttonLink: "https://www.isc2.org/landing/1mcc",
     },
     {
       title: "Certified Ethical Hacker",
       description: "Focuses on identifying and exploiting system vulnerabilities to strengthen organizational security.",
-      imageSrc: "/main_logos_and_assets/logos/other_logos/certified_ethical_hacker.png",
+      imageSrc: `${basePath}/main_logos_and_assets/logos/other_logos/certified_ethical_hacker.png`,
       buttonText: "Certified Ethical Hacker",
       buttonLink: "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh-v13-north-america/",
     },
     {
       title: "Cisco Certified Network Associate",
       description: "Confirms essential networking skills in configuring, managing, and troubleshooting Cisco-based networks",
-      imageSrc: "/main_logos_and_assets/logos/other_logos/cisco_ccna.png",
+      imageSrc: `${basePath}/main_logos_and_assets/logos/other_logos/cisco_ccna.png`,
       buttonText: "Cisco Certified Network Associate",
       buttonLink: "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html",
     },
     {
       title: "AWS Certified Security - Speciality",
       description: "Proves advanced expertise in securing cloud environments and applications on the AWS platform.",
-      imageSrc: "/main_logos_and_assets/logos/other_logos/aws_certified_security_specialty.png",
+      imageSrc: `${basePath}/main_logos_and_assets/logos/other_logos/aws_certified_security_specialty.png`,
       buttonText: "AWS Certified Security - Speciality",
       buttonLink: "https://aws.amazon.com/certification/certified-security-specialty/",
     },
@@ -52,14 +54,14 @@ export default function BITCMAResources() {
     {
       title: "Security Certification Roadmap",
       description: "Lets you explore what certifications to take in the future.",
-      imageSrc: "/main_logos_and_assets/assets/security_certification_roadmap.png",
+      imageSrc: `${basePath}/main_logos_and_assets/assets/security_certification_roadmap.png`,
       buttonText: "Certification Roadmap",
       buttonLink: "https://pauljerimy.com/security-certification-roadmap/",
     },
     {
       title: "Cyberseek Career Pathway",
       description: "Lets you view various careers within cybersecurity.",
-      imageSrc: "/main_logos_and_assets/assets/cyberseek_home.png",
+      imageSrc: `${basePath}/main_logos_and_assets/assets/cyberseek_home.png`,
       buttonText: "Cyberseek Career Pathway",
       buttonLink: "https://www.cyberseek.org/pathway.html",
     },
@@ -68,28 +70,28 @@ export default function BITCMAResources() {
     {
       title: "Professor Messer",
       description: "Professor Messer is a Youtuber who publishes helpful study & educational content for CompTIA certs and other cybersecurity topics.",
-      imageSrc: "/main_logos_and_assets/logos/other_logos/professor_messer_logo.png",
+      imageSrc: `${basePath}/main_logos_and_assets/logos/other_logos/professor_messer_logo.png`,
       buttonText: "View Professor Messer's Channel",
       buttonLink: "https://www.youtube.com/user/professormesser",
     },
     {
       title: "HackTheBox",
       description: "HackTheBox is a website that allows you to grow your cybersecurity knowledge by competing in CTFs and other real-world exercises",
-      imageSrc: "/main_logos_and_assets/assets/hackthebox_resized.webp",
+      imageSrc: `${basePath}/main_logos_and_assets/assets/hackthebox_resized.webp`,
       buttonText: "HackTheBox",
       buttonLink: "https://www.hackthebox.com/",
     },
     {
       title: "TryHackMe",
       description: "TryHackMe is a website that has several cybersecurity-related modules where you can learn important concepts, as well as practice by completing real-world tasks. ",
-      imageSrc: "/main_logos_and_assets/assets/tryhackme_resized.webp",
+      imageSrc: `${basePath}/main_logos_and_assets/assets/tryhackme_resized.webp`,
       buttonText: "TryHackMe",
       buttonLink: "https://tryhackme.com/",
     },
     {
       title: "ISSA",
       description: "ISSA, or the Information Systems Security Association, is an association of professionals in the Information Security Industry. They have chapters worldwide, including some across Virginia.",
-      imageSrc: "/main_logos_and_assets/logos/other_logos/issa_logo.webp",
+      imageSrc: `${basePath}/main_logos_and_assets/logos/other_logos/issa_logo.webp"`,
       buttonText: "ISSA",
       buttonLink: "https://issa.org/",
     },
