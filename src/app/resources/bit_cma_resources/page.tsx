@@ -91,7 +91,7 @@ export default function BITCMAResources() {
     {
       title: "ISSA",
       description: "ISSA, or the Information Systems Security Association, is an association of professionals in the Information Security Industry. They have chapters worldwide, including some across Virginia.",
-      imageSrc: `${basePath}/main_logos_and_assets/logos/other_logos/issa_logo.webp"`,
+      imageSrc: `${basePath}/main_logos_and_assets/logos/other_logos/issa_logo.webp`,
       buttonText: "ISSA",
       buttonLink: "https://issa.org/",
     },
