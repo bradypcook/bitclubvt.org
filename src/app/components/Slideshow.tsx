@@ -1,16 +1,18 @@
 "use client";
 import { useState, useEffect } from "react";
 
+const basePath = process.env.NODE_ENV === 'production' ? '/bitclubvt2025-2026' : '';
+
 const images = [
   // THIS IS WHERE THE PHOTOS FOR THE SLIDESHOW GO!!
-  "/slideshow_photos/DSC00728_resized.webp",
-  "/slideshow_photos/DSC00802_resized.webp",
-  "/slideshow_photos/ey_event_crowd_picture.png",
-  "/slideshow_photos/DSC01357_resized.webp",
-  "/slideshow_photos/hokiebirdwarm_resized.webp",
-  "/slideshow_photos/DSC02583_resized.webp",
-  "/slideshow_photos/mocktails_1.png",
-  "/slideshow_photos/mocktails_2.png",
+  `${basePath}/slideshow_photos/DSC00728_resized.webp`,
+  `${basePath}/slideshow_photos/DSC00802_resized.webp`,
+  `${basePath}/slideshow_photos/ey_event_crowd_picture.png`,
+  `${basePath}/slideshow_photos/DSC01357_resized.webp`,
+  `${basePath}/slideshow_photos/hokiebirdwarm_resized.webp`,
+  `${basePath}/slideshow_photos/DSC02583_resized.webp`,
+  `${basePath}/slideshow_photos/mocktails_1.png`,
+  `${basePath}/slideshow_photos/mocktails_2.png`,
 
   // fun fact, hokebirdwarm is actually my own photo
 ];

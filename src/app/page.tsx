@@ -8,6 +8,8 @@ import PurposeSection from './components/Purpose';
 import WhyJoinSection from './components/WhyJoin';
 import type { Metadata } from 'next';
 
+const basePath = process.env.NODE_ENV === 'production' ? '/bitclubvt2025-2026' : '';
+
 export const metadata: Metadata = {
   title: "BIT Club @ VT",
   // For some reason in the main page, you have to list out the full title. I don't know why, but it works this way so that's what matters.
@@ -22,7 +24,7 @@ export default function MainPage() {
       header='Purpose'
       body="We are a student-led organization that blends professional development with a vibrant social community. Our mission is to connect BIT majors and like-minded students 
       while fostering academic growth and preparing members for success in the business & technology fields."
-      imageSrc="/main_logos_and_assets/assets/purpose_photo_resized.webp"
+      imageSrc={`${basePath}/main_logos_and_assets/assets/purpose_photo_resized.webp`}
       />
       <WhyJoinSection 
       header='Why Join?'
@@ -30,7 +32,7 @@ export default function MainPage() {
 
       The BIT Club is a leading student organization at Virginia Tech for anyone passionate about technology, business, and innovation. Whether you’re a BIT major or simply curious about the field, 
       you’ll gain valuable experience and direct access to recruiters from companies like CGI, Deloitte, and Amazon."
-      imageSrc="/main_logos_and_assets/assets/whyjoin_photo_resized.webp"
+      imageSrc={`${basePath}/main_logos_and_assets/assets/whyjoin_photo_resized.webp`}
       />
       <Footer />
     </main>

@@ -2,6 +2,8 @@
 import React, { useRef, useState, useEffect } from "react";
 import Image from "next/image";
 
+const basePath = process.env.NODE_ENV === 'production' ? '/bitclubvt2025-2026' : '';
+
 interface WhyJoinUsProps {
   header: string;
   body: string;
