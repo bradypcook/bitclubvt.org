@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import { Encode_Sans_Condensed } from "next/font/google";
 import localFont from "next/font/local";
-import { GoogleAnalytics } from '@next/third-parties/google'
 import "./globals.css";
+
+
+const basePath = process.env.NODE_ENV === 'production' ? '/bitclubvt2025-2026' : '';
 
 const encodeSansCondensed = Encode_Sans_Condensed({
   subsets: ["latin"],
@@ -25,7 +27,7 @@ export const metadata: Metadata = {
   description:
     "Welcome to the BIT Club Website! You can find out more about our club, view our executive board members, and check our calendar for upcoming events!",
   icons: {
-    icon: "/bitclub_icon_transparent.ico",
+    icon: `${basePath}//bitclub_icon_transparent.ico`
   },
   openGraph: {
     title: "BIT Club @ VT",
@@ -64,7 +66,6 @@ export default function RootLayout({
         className={`${encodeSansCondensed.variable} ${hussarBold.variable} antialiased`}
       >
         {children}
-        <GoogleAnalytics gaId="G-V7EQQETPDH" />
       </body>
     </html>
   );
